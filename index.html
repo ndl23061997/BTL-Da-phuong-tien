@@ -3,10 +3,10 @@
   <head>
     <title>Kiddos - </title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+    <!-- Google font api -->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -69,6 +69,16 @@
     <!-- END nav -->
     
     <section class="home-slider owl-carousel">
+
+				<div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+					<div class="overlay"></div>
+					<div class="containerr">
+						<div class="row no-gutters slider-text align-items-center justify-content-center cus-container" data-scrollax-parent="true">
+							<img class="aa" src="images/play-button.png" style="transform: scale(0.15, 0.15);" data-toggle="modal" data-target="#player">
+					</div>
+					</div>
+				</div>
+
       <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
       	<div class="overlay"></div>
         <div class="container">
@@ -93,15 +103,7 @@
         </div>
 			</div>
 
-			<div class="slider-item" style="background-image:url(images/bg_1.jpg);">
-      	<div class="overlay"></div>
-        <div class="containerr">
-          <div class="row no-gutters slider-text align-items-center justify-content-center cus-container" data-scrollax-parent="true">
-
-            <img class="aa" src="images/play-button.png" style="transform: scale(0.15, 0.15);" data-toggle="modal" data-target="#player">
-        </div>
-        </div>
-			</div>
+			
     </section>
 
 
@@ -112,7 +114,7 @@
 			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-body">
-						<video autoplay loop controls width="100%" class="embed-responsive-item">
+						<video autoplay loop controls width="100%" class="embed-responsive-item" id="video">
 							<source src="videos/video.mp4" type="video/mp4">
 						</video>
 					</div>
@@ -831,7 +833,7 @@
               <form action="#" class="subscribe-form">
                 <div class="form-group">
                   <input type="text" class="form-control mb-2 text-center" placeholder="Nhập địa chỉ Email">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
+                  <input type="submit" value="Theo dỡi" class="form-control submit px-3">
                 </div>
               </form>
             </div>
@@ -877,6 +879,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/myscript.js"></script>
     
   </body>
 </html>
