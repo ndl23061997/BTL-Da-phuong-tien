@@ -11,3 +11,7 @@
 img#logo {
     transform: translateY(25%);
 }
+
+#myVideo {
+    width:100%; 
+}

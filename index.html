@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 				
 	    <div class="container d-flex align-items-center">
-	    	<a class="navbar-brand" href="index.html"><img src="images/logo-kidfun.png" width="64px"></img></a>
+	    	<a class="navbar-brand" href="index.html"><img src="images/logo.png" width="64px"></img></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -36,47 +36,44 @@
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Trang chủ</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Thông tin</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Giáo viên</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Khoá học</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Học phí</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
+	        	<li class="nav-item"><a href="#teacher" class="nav-link">Giáo viên</a></li>
+	        	<li class="nav-item"><a href="#course" class="nav-link">Khoá học</a></li>
+	        	<li class="nav-item"><a href="#fee" class="nav-link">Học phí</a></li>
+	        	<li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#contact" class="nav-link">Liên hệ</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
-    			<div class="py-2 bg-primary">
-					<div class="container">
-						<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
-							<div class="col-lg-12 d-block">
-								<div class="row d-flex">
-				
-									<div class="col-md-5 pr-4 d-flex topper align-items-center">
-										<div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
-										<span class="text"> Số 8, ngõ 135 ngách 12, Nguyễn Văn Cừ, Phường Ngọc Lâm Quận Long Biên, TP. Hà Nội</span>
-									</div>
-										
-									<div class="col-md pr-4 d-flex topper align-items-center">
-										<div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-										<span class="text">+ 0971328496</span>
-									</div>
-								</div>
-							</div>
+	<div class="py-2 bg-primary">
+		<div class="container">
+			<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+				<div class="col-lg-12 d-block">
+					<div class="row d-flex">
+	
+						<div class="col-md-5 pr-4 d-flex topper align-items-center">
+							<div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+							<span class="text"> Email : Longnguyen23061997@gmail.com</span>
+						</div>
+						<div class="col-md-5 pr-4 d-flex topper align-items-center">
+							<div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+							<span class="text"> Số 8, ngõ 135 ngách 12, Nguyễn Văn Cừ, Phường Ngọc Lâm Quận Long Biên, TP. Hà Nội</span>
+						</div>
+							
+						<div class="col-md pr-4 d-flex topper align-items-center">
+							<div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+							<span class="text">+ 0971328496</span>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	
 
     <section class="home-slider owl-carousel">
-
-				<div class="slider-item" style="background-image:url(images/bg_1.jpg);">
-					<div class="overlay"></div>
-					<div class="containerr">
-						<div class="row no-gutters slider-text align-items-center justify-content-center cus-container" data-scrollax-parent="true">
-							<img class="aa" src="images/play-button.png" style="transform: scale(0.15, 0.15);" data-toggle="modal" data-target="#player">
-					</div>
-					</div>
-				</div>
 
       <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
       	<div class="overlay"></div>
@@ -105,9 +102,9 @@
 			
     </section>
 
+	
 
-
-		<!-- Modal -->
+	<!-- Modal -->
 		<div class="modal fade" id="player" tabindex="-1" role="dialog" aria-labelledby="player"
 			aria-hidden="true">
 			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -171,8 +168,12 @@
         </div>
 			</div>
 		</section>
-		
-		<section class="ftco-section ftco-no-pt ftc-no-pb">
+		<section class="ftco-services ftco-no-pb">
+		<video autoplay muted loop id="myVideo" data-toggle="modal" data-target="#player">
+			<source src="videos/video.mp4" type="video/mp4">
+		</video>
+	</section>
+		<section class="ftco-section ftco-no-pt ftc-no-pb" id="info">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light">
@@ -263,7 +264,7 @@
 		</section>
 
 		
-		<section class="ftco-section ftco-no-pb">
+		<section class="ftco-section ftco-no-pb" id="teacher">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate cus">
@@ -356,7 +357,7 @@
 			</div>
 		</section>
 
-		<section class="ftco-section">
+		<section class="ftco-section" id="course">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -592,7 +593,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section">
+    <section class="ftco-section" id="fee">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -657,11 +658,11 @@
     	</div>
     </section>
 
-		<section class="ftco-section bg-light">
+		<section class="ftco-section bg-light" id="blog">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Gần đây</span> Blog</h2>
+            <h2 class="mb-4"><span>Bài viết</span> gần đây</h2>
             <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
           </div>
         </div>
@@ -772,7 +773,7 @@
     </section>
 
 		
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <footer class="ftco-footer ftco-bg-dark ftco-section" id="contact">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3">
@@ -783,7 +784,7 @@
 	                <li><span class="icon icon-map-marker"></span><span class="text">Số 8, ngõ 135 ngách 12, Nguyễn Văn Cừ, Phường Ngọc Lâm Quận Long Biên, TP. Hà Nội</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+84 971328496</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">longnguyen23061997@kidfun.com</span></a></li>
-					<li><img src="images/logo-kidfun.png" width="256px"></img></li>
+					<li><img src="images/logo.png" width="256px"></img></li>
 	              </ul>
 	            </div>
             </div>
